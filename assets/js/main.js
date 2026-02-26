@@ -26,7 +26,7 @@ function criaCalculadora (){
             
             try {
                 conta = eval(conta);
-                if(!conta){ 
+                if(!conta && conta !== 0){ 
                     alert(`conta inválida`);
                     return;
                 }
